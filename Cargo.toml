@@ -6,4 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-backyard = { git = "https://github.com/ZemanOndrej/backyard.git", tag = "0.2.0" }
+log = "0.4.20"
+log4rs = "1.2.0"
+yard = { git = "ssh://git@github.com/ZemanOndrej/backyard.git", tag = "0.5.0" }

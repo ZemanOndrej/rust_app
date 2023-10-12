@@ -1,0 +1,21 @@
+2023-10-11T17:26:20.297354569+02:00 - service run
+2023-10-11T17:26:20.297430968+02:00 - vegetable is onion
+2023-10-11T17:26:20.297456067+02:00 - service run
+2023-10-11T17:26:20.297471367+02:00 - vegetable is not onion
+2023-10-11T17:26:20.297486567+02:00 - service run
+2023-10-11T17:26:20.297500167+02:00 - vegetable is carrot
+2023-10-11 15:30:57 - INFO: service run
+2023-10-11 15:30:57 - INFO: vegetable is onion
+2023-10-11 15:30:57 - INFO: service run
+2023-10-11 15:30:57 - WARN: vegetable is not onion
+2023-10-11 15:30:57 - INFO: service run
+2023-10-11 15:30:57 - ERROR: vegetable is carrot
+2023-10-12 11:22:44 - INFO: service run
+2023-10-12 11:22:44 - INFO: vegetable is onion
+2023-10-12 11:22:44 - INFO: service work
+2023-10-12 11:22:44 - INFO: service run
+2023-10-12 11:22:44 - WARN: vegetable is not onion
+2023-10-12 11:22:44 - INFO: service work
+2023-10-12 11:22:44 - INFO: service run
+2023-10-12 11:22:44 - ERROR: vegetable is carrot
+2023-10-12 11:22:44 - INFO: service work

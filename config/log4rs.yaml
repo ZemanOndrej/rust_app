@@ -1,0 +1,22 @@
+refresh_rate: 30 seconds
+appenders:
+  stdout:
+    kind: console
+  backend:
+    kind: file
+    path: "log/backend.log"
+    encoder:
+      pattern: "{h({d(%Y-%m-%d %H:%M:%S)(utc)} - {l}: {m}{n})}"
+root:
+  level: warn
+  appenders:
+    - stdout
+    - backend
+loggers:
+  app::backend:
+    level: info
+  app::requests:
+    level: info
+    appenders:
+      - requests
+    additive: false
